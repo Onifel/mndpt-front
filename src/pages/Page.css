@@ -1,0 +1,98 @@
+#select-image {
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+    margin-right: 25px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.head{
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.deconnecter,.shdpage {
+    color: lightgrey;
+    font-size: 12px;
+}
+
+.cardactions{
+    margin-left: auto;
+    margin-right: 120px;
+}
+
+.userNom,
+.deconnecter {
+    line-height: 150px;
+}
+
+.profil,
+.demande,
+.demandeabs,
+.planning,.validation {
+    width: 250px;
+}
+
+.vaovao {
+    width: 300px;
+    padding-top: 15px;
+}
+
+.profilShd,
+.demandeShd,
+.demandeabsShd,
+.planningShd,.validationShd {
+    width: 225px;
+}
+
+.vaovaoShd {
+    width: 280px;
+    padding-top: 15px;
+}
+
+.filazanaShd {
+    width: 200px;
+}
+
+.vaovaoH {
+    height: 48px;
+}
+
+.filazana {
+    width: 250px;
+}
+
+.textf{
+    background-color: rgb(242, 242, 248);
+    border: none;
+    width: 300px;
+}
+#select {
+    background-color: rgb(242, 242, 248);
+    border: none;
+    width: 167px; 
+}
+
+.info {
+    display: flex;
+}
+
+.inputlb {
+    margin-bottom: 35px;
+}
+
+.inputlb1 {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.rejeter{
+    background-color: red;
+    color: white;
+
+}
