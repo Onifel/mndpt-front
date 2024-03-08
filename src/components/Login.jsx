@@ -22,7 +22,7 @@ const Login = () => {
     const onSubmit = (data) => {
         console.log(data);
         if (data.login!=="" && data.password!=="") {
-         history('/agent')
+         history('/mndpt-front/agent')
        }
     };
 
@@ -109,7 +109,7 @@ const Login = () => {
                                     labelPlacement='end'
                                     className='chb'
                                 />
-                                <NavLink to='/change' className='changer'>Mot de passe oublié?</NavLink>
+                                <NavLink to='/mndpt-front/change' className='changer'>Mot de passe oublié?</NavLink>
                             </Box>
                         </Stack>
                     </form>

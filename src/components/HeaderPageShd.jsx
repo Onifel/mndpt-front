@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, Button } from "@mui/material";
+import { Avatar } from "@mui/material";
 import { NavLink } from "react-router-dom";
 import { Grid } from "@mui/material";
 import Card from "@mui/material/Card";
@@ -21,10 +21,10 @@ const HeaderPage = () => {
                     subheader="PRENOM"
                 />
                 <CardActions className='cardactions'>
-                    <NavLink to='/form' className='shdpage'>
+                    <NavLink to='/mndpt-front' className='shdpage'>
                         Se Déconnecter
                     </NavLink>
-                    <NavLink to='/agent' className='deconnecter'>
+                    <NavLink to='/mndpt-front/agent' className='deconnecter'>
                         Agent page
                     </NavLink>
                 </CardActions>

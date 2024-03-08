@@ -127,7 +127,7 @@ function Change() {
                             </Box>
                             <Box>
                                 <NavLink
-                                    to='/form'
+                                    to='/mndpt-front'
                                     className='connecter'
                                 >
                                     Se connecter
