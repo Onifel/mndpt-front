@@ -54,7 +54,7 @@ function Change() {
                             width={275}
                         >
                             <Box>
-                                <NavLink to='/form' className='retour'>Retour</NavLink>
+                                <NavLink to='/mndpt-front/' className='retour'>Retour</NavLink>
                             </Box>
                             <TextField
                                 autoComplete='none'
@@ -127,7 +127,7 @@ function Change() {
                             </Box>
                             <Box>
                                 <NavLink
-                                    to='/mndpt-front'
+                                    to='/mndpt-front/'
                                     className='connecter'
                                 >
                                     Se connecter

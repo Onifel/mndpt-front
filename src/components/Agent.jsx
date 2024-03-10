@@ -110,13 +110,13 @@ const Agent = () => {
                                     <Profil />
                                 </CustomTabPanel>
                                 <CustomTabPanel value={value} index={1}>
-
+                                    Vous n'avez de demandes d'absence
                                 </CustomTabPanel>
                                 <CustomTabPanel value={value} index={2}>
                                     <DemandeAbs />
                                 </CustomTabPanel>
                                 <CustomTabPanel value={value} index={3}>
-                                    Item Four
+                                    Planning de congé
                                 </CustomTabPanel>
                             </Box>
                         </CardContent>

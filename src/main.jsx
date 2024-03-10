@@ -10,7 +10,7 @@ import ShdPage from './pages/ShdPage.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/mndpt-front",
+    path: "/mndpt-front/",
     element: <App />,
     children: [
       {
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         element: <Change />,
       },
       {
-        path: "/mndpt-front",
+        path: "/mndpt-front/",
         element: <Login />,
       },
       {
